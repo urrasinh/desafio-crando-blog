@@ -14,6 +14,7 @@ Revisar si utiliza un Sistema de gestión de bases de datos distinto.
 > Tablas y columnas: escritas en plural, minusculas y sin ñ, simbolos o tildes.
 > 
 ## Convenciones de subquery
+>
 > * Las consultas internas deben estar encapsuladas entre paréntesis.  
 > * Una subquery puede tener sólo una columna especificada en SELECT, con la excepción de múltiples columnas definidas en la consulta principal.  
 > * El comando ORDER BY no se puede utilizar en una consulta interna. La excepción es que esta instrucción sí puede ser incluida en la consulta principal.  
