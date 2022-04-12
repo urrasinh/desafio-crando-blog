@@ -19,4 +19,4 @@ Revisar si utiliza un Sistema de gestión de bases de datos distinto.
 > * El comando ORDER BY no se puede utilizar en una consulta interna. La excepción es que esta instrucción sí puede ser incluida en la consulta principal.  
 > * Para obtener un resultado similar a ORDER BY dentro de una consulta interna, se puede implementar el comando GROUP BY.  
 > * Aquellas consultas internas que retornen más de una fila sólo pueden ser utilizadas con operadores de múltiples valores como IN.  
-> 
+> * las sub consultas en FROM deben tenber un ALIAS
